@@ -6,3 +6,34 @@ debug
 foo.*
 *.log
 data
+
+# Lua/LuaRocks
+.lua
+.luarc.json
+lua_modules/
+
+# Neovim runtime
+*.swp
+*.swo
+*~
+
+# Session files
+.session.vim
+vim-resume
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# Backup
+*.bak
+*~
+
+# Cache
+cache/
+temp/
+tmp/
